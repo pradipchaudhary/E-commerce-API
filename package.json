@@ -1,0 +1,19 @@
+{
+    "name": "e-commerce-api",
+    "version": "1.0.0",
+    "description": "Create a REST API for an e-commerce platform where users can browse products, and items to their cart, and proceed to checkout.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Nodejs",
+        "Node",
+        "JavaScript",
+        "MongoDB",
+        "Rest",
+        "API"
+    ],
+    "author": "Pradip Chaudhary",
+    "license": "ISC"
+}
