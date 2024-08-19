@@ -3,8 +3,10 @@
     "version": "1.0.0",
     "description": "Create a REST API for an e-commerce platform where users can browse products, and items to their cart, and proceed to checkout.",
     "main": "index.js",
+    "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js"
     },
     "keywords": [
         "Nodejs",
@@ -15,5 +17,10 @@
         "API"
     ],
     "author": "Pradip Chaudhary",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "mongoose": "^8.5.3"
+    }
 }
