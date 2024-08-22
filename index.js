@@ -13,6 +13,9 @@ connectDB();
 
 const app = express();
 app.use(json());
+app.get("/", (req, res) => {
+    res.send(<h1>E-Commerce API</h1>);
+});
 
 // Routes
 app.use("/api/auth", authRoutes);
